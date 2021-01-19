@@ -1,0 +1,12 @@
+django
+djangorestframework
+djangorestframework-simplejwt
+djangorestframework-bulk
+pillow
+tensorflow
+tensorflow-hub
+scipy
+sklearn
+tensorflow-text
+django-cors-headers
+django-filter

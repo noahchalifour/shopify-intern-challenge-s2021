@@ -1,0 +1,7 @@
+.DS_Store
+venv
+__pycache__
+*.sqlite3
+uploads
+/api/src/annotations
+/api/src/train2014
