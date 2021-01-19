@@ -1,4 +1,5 @@
 from django.apps import AppConfig
+import sys
 
 
 class AppConfig(AppConfig):
@@ -7,7 +8,8 @@ class AppConfig(AppConfig):
 
     def ready(self) -> None:
 
-        from app.utils import image_search
-        image_search.initialize()
+        if 'runserver' in sys.argv:
+            from app.utils import image_search
+            image_search.initialize()
 
         return super().ready()

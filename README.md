@@ -15,6 +15,8 @@ cd api
 virtualenv venv             # Create a virtual environment
 source venv/bin/activate
 pip install -r requirements.txt
+cd src
+python manage.py migrate
 ```
 
 #### Frontend Setup
